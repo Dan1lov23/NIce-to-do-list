@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To do list</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="51819c0566eb155d5f90f9d4967da4ee.jpg">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="themeChange">
+        <button id="theme" onclick="changeTheme()">🌕</button>
+    </div>
+    <div class="main-container" id="main-container">
+        <div class="title">
+            <h1 id="title">Todo list</h1>
+        </div>
+        <div class="inputAndButton">
+            <input type="text" id="task" placeholder="Enter a task here">
+            <button id="add" onclick="add()">+</button>
+        </div>
+        <div class="title-tasks">
+            <h1 id="titleTask">My tasks</h1>
+        </div>
+        <div class="myTasks" id="myTasks">
+            <span class="tasks" id="tasks"></span>
+        </div>
+    </div>
+</body>
+</html>
